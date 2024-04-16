@@ -151,7 +151,7 @@ body {
 
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     top:10px;position:fixed;padding:10px;padding-left:25px;padding-right:25px;display:flex;justify-content:space-between;width:100vw;z-index:10;
-    color:white;
+    color:indigo;
     font-weight:bold;
     text-shadow:0px 0px 3px lightgray;
   }

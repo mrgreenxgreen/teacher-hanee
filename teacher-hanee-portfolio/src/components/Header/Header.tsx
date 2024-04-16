@@ -33,7 +33,7 @@ const Header = () => {
         <div style={{ display: "flex",justifyContent:"center",alignItems:"center", flexDirection: "column", gap: "25px" }}>
 
 
-          <div style={{ height: "325px", width: "325px", background: "orchid",border:"4px solid rgb(46, 0, 77)", borderRadius: "50%", display: "flex", justifyContent: "center", overflow: 'hidden' }}>
+          <div style={{ height: "325px", width: "325px", background: "orchid",boxShadow:"0px 0px 5px 1px #555",border:"8px solid rgb(46, 0, 77)", borderRadius: "50%", display: "flex", justifyContent: "center", overflow: 'hidden' }}>
             <img src={ProfPic} alt="teacher hanee" style={{ height: "450px", width: "375px",}} />
           </div>
 
