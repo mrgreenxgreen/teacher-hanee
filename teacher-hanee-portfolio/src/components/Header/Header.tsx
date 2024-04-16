@@ -1,21 +1,22 @@
 import { TERipple } from "tw-elements-react"
 import ProfPic from "../../assets/dp3.png"
+import Award from "../../assets/award.png"
 import "./Header.css"
 const Header = () => {
   return (
 
     <div id='Container' className='w-fit '>
-      <div style={{ display: "flex" }}>
+      <div className='flex flex-col xs:flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row'>
         <div style={{ background: "", color: "gray", height: "fit-content", padding: "25px" }}>
 
-          <h1 className=" stroke-slate-700 text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-l  from-purple-950 to-fuchsia-900">
+          <h1 className=" stroke-slate-700 text-7xl text-left font-extrabold text-transparent bg-clip-text bg-gradient-to-l  from-purple-950 to-fuchsia-900">
             Hi, I'm
             Teacher Hanee
           </h1>
-          <h5 style={{marginBottom:"35px",textAlign:"left",fontSize:"20px",color:"#333",fontWeight:"bold"}}>
-            a licensed professional teacher with Early Childhood Education specialization.
+          <h5 style={{marginBottom:"35px",textAlign:"left",fontSize:"20px",color:"#333",fontWeight:"bold",}}>
+             Licensed Professional Teacher with Specialization in Early Childhood Education.
           </h5>
-          <div style={{ display: "flex", gap: "25px" }}>
+          <div className="flex items-center  gap-5  xl:flex-row lg:flex-row  md:flex-col  sm:flex-col xs:flex-col">
             <button role="button" className="golden-button">
               <span className="golden-text">AVAIL TUTORIAL SERVICES</span>
             </button>
@@ -29,12 +30,11 @@ const Header = () => {
             </button>
           </div>
         </div>
-        <div style={{ display: "flex", flexDirection: "column", gap: "25px" }}>
+        <div style={{ display: "flex",justifyContent:"center",alignItems:"center", flexDirection: "column", gap: "25px" }}>
 
 
-          <div style={{ height: "400px", width: "400px", background: "orchid", borderRadius: "50%", display: "flex", justifyContent: "center", overflow: 'hidden' }}>
-            <img src={ProfPic} alt="teacher hanee" style={{ height: "400px", width: "300px", }} />
-
+          <div style={{ height: "325px", width: "325px", background: "orchid",border:"4px solid rgb(46, 0, 77)", borderRadius: "50%", display: "flex", justifyContent: "center", overflow: 'hidden' }}>
+            <img src={ProfPic} alt="teacher hanee" style={{ height: "450px", width: "375px",}} />
           </div>
 
         </div>

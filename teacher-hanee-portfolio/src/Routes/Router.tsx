@@ -4,6 +4,7 @@ import John from "../components/John";
 import App from "../App";
 import Home from "../pages/Home";
 import Profile from "../pages/Profile";
+import Sample from "../pages/Sample";
 
 export const Router = createBrowserRouter([
     {
@@ -16,9 +17,14 @@ export const Router = createBrowserRouter([
         {
             path:"profile",
             element:<Profile/>
-        }
+        },
+       
         
         ]
     },
+    {
+        path:"sample",
+        element:<Sample/>
+    }
 
 ])

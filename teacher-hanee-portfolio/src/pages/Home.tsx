@@ -1,6 +1,6 @@
 import Header from "../components/Header/Header"
 import SubHeader from "../components/SubHeader"
-import "../index.css"
+// import "../index.css"
 
 const Home = () => {
   return (
