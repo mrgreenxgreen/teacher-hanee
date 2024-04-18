@@ -1,0 +1,101 @@
+#ExperienceContainer{
+   
+    background-size:40px 40px;
+    background-image:linear-gradient(to bottom, #4b4a4b, transparent 1px);
+    border-radius:10px;
+    border:1px solid gray;
+ 
+    
+}
+
+#MarginLine{
+    width:10%;
+    height:100%;
+    position:absolute;
+    border-right:1px solid orchid;
+}
+
+#Exp{
+
+}
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+        #Exp{
+            background-size:40px 40px;
+            background-image:linear-gradient(to bottom, #4b4a4b, transparent 1px);
+            border-radius:10px;
+            border:1px solid gray;
+        }
+        #ExperienceContainer{
+            background-size:;
+            background-image:none;
+            border-radius:0;
+            border:none;
+        }
+      }
+      
+      /* Small devices (portrait tablets and large phones, 600px and up) */
+      @media only screen and (min-width: 600px) {
+        #Exp{
+            background-size:40px 40px;
+            background-image:linear-gradient(to bottom, #4b4a4b, transparent 1px);
+            border-radius:10px;
+            border:1px solid gray;
+        }
+        #ExperienceContainer{
+            background-size:;
+            background-image:none;
+            border-radius:0;
+            border:none;
+        }
+      }
+      
+      /* Medium devices (landscape tablets, 768px and up) */
+      @media only screen and (min-width: 768px) {
+        #Exp{
+            background-size:;
+            background-image:none;
+            border-radius:0;
+            border:none;
+        }
+        #ExperienceContainer{
+            background-size:40px 40px;
+            background-image:linear-gradient(to bottom, #4b4a4b, transparent 1px);
+            border-radius:10px;
+            border:1px solid gray;
+        }
+      } 
+      
+      /* Large devices (laptops/desktops, 992px and up) */
+      @media only screen and (min-width: 992px) {
+        #Exp{
+            background-size:;
+            background-image:none;
+            border-radius:0;
+            border:none;
+        }
+        #ExperienceContainer{
+            background-size:40px 40px;
+            background-image:linear-gradient(to bottom, #4b4a4b, transparent 1px);
+            border-radius:10px;
+            border:1px solid gray;
+        }
+      } 
+      
+      /* Extra large devices (large laptops and desktops, 1200px and up) */
+      @media only screen and (min-width: 1200px) {
+        #Exp{
+            background-size:;
+            background-image:none;
+            border-radius:0;
+            border:none;
+           
+
+        }
+        #ExperienceContainer{
+            background-size:40px 40px;
+            background-image:linear-gradient(to bottom, #4b4a4b, transparent 1px);
+            border-radius:10px;
+            border:1px solid gray;
+        }
+      }

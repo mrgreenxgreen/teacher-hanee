@@ -67,11 +67,11 @@ export default function Menu() {
           clipPath: "inset(10% 50% 90% 50% round 10px)",
         }}
       >
-       
+        <li>Home</li>
         <li>Experience</li>
         <li>Education </li>
-        <li>Skills</li>
-        <li>Certificates </li>
+        <li>Skills & Certifications</li>
+    
       </ul>{" "}
     </div>
   );

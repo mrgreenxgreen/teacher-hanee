@@ -146,8 +146,8 @@
   }
   
   .box {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     background: var(--accent);
     margin: 0;
@@ -155,7 +155,7 @@
   
   .menu {
     filter: drop-shadow(1px 1px 1px #5116a9);
-    width: 155px;
+    width: 130px;
   }
   
  .menu ul {
@@ -181,7 +181,7 @@
   
   .menu button {
     -webkit-appearance: button;
-    background: mediumorchid;
+    background: blueviolet;
     color: white;
     border: none;
     border-radius: 10px;

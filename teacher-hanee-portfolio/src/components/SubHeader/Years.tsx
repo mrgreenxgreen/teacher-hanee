@@ -11,16 +11,16 @@ class Years extends Component<YearsProps> {
   componentDidMount() {
     const timeoutId = setTimeout(() => {
       const intervalId = setInterval(() => {
-        if (this.state.count < 6) {
+        if (this.state.count < 4) {
           this.setState({ count: this.state.count + 1 });
         } else {
           clearInterval(intervalId);
           this.setState({ intervalId: null });
         }
-      }, 500); // Update every 1 second
+      }, 600); // Update every 1 second
 
       this.setState({ intervalId }); // Store interval ID in state
-    }, 1000); // Simulate 1 second delay before starting
+    }, 1500); // Simulate 1 second delay before starting
 
     return () => {
       clearTimeout(timeoutId);
@@ -35,9 +35,9 @@ class Years extends Component<YearsProps> {
   render() {
     return (
       <div>
-        <p className='text-xl'>with more than</p>
-        <p className='text-7xl font-bold'> {this.state.count} years</p>
-        <p className='text-5xl'>experience</p>
+        <p className='text-xl' >with more than</p>
+        <p className='text-5xl font-bold text-purple-700' style={{filter: 'drop-shadow(1px 1px 1px #5116a9)'}}> <span className='text-8xl font-bold'>{this.state.count}</span> <br/>years of</p>
+        <p className='text-5xl font-bold text-purple-700' style={{filter: 'drop-shadow(1px 1px 1px #5116a9)'}}>experience</p>
       </div>
     );
   }
