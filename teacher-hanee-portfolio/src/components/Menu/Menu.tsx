@@ -70,7 +70,8 @@ export default function Menu() {
         <li>Home</li>
         <li>Experience</li>
         <li>Education </li>
-        <li>Skills & Certifications</li>
+        <li>Skill set</li>
+        <li>Contact</li>
     
       </ul>{" "}
     </div>
