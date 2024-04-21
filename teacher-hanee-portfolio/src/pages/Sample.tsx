@@ -1,11 +1,12 @@
-import React from 'react'
+
 import '../components/Menu/Menu.css'
-import Menu from '../components/Menu/Menu'
+import InfiniteScroll from '../components/SkillsAndCertification/InfiniteScroll'
 
 const Sample = () => {
   return (
-    <div>
-        <Menu/>
+    <div >
+
+   <InfiniteScroll/>
     </div>
   )
 }

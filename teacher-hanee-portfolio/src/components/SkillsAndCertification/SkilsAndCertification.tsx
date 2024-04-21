@@ -25,7 +25,7 @@ const SkilsAndCertification = () => {
           Teamwork<br />
         </p>
       </div>
-      <div style={{height:"fit-content",width:"300px",textAlign:"left",background:"red",wordBreak:"break-word"}}>
+      <div style={{height:"fit-content",width:"300px",textAlign:"left",wordBreak:"break-word", }}>
         <p>Certifications:</p>
         <div className=' w-96'>
           <p>

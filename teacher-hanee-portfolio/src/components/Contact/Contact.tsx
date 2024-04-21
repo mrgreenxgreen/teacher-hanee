@@ -16,7 +16,7 @@ const Contact = () => {
                         It is best to contact me for specific details.  Different rates may apply depending on several factors.
                         You may contact me on the following:
                     </p>
-                    <div className='text-left xs:w-full md:w-1/2  xs:px-0 md:px-10 lg:px-20'>
+                    <div className='text-left xs:w-full md:w-1/2  xs:px-3 md:px-10 lg:px-20'>
                         <div>
                             F: <u className='text-blue-800'>https://www.facebook.com/auffs</u>
                         </div>
