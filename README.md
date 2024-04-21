@@ -1,2 +1,4 @@
 repository for teacher-hanee's portfolio website
-glassmorphism theme, react-framer motion
+
+bento ui <br/>
+react-framer motion<br/>
