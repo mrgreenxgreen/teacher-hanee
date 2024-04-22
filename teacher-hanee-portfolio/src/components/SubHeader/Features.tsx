@@ -18,6 +18,33 @@ const Features = () => {
                 <div className="container my-2 mx-auto md:px-6">
 
                     <div className="grid gap-2 lg:grid-cols-4">
+
+
+                        <div
+                            id='Feat'
+                            className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+                            data-te-ripple-init
+                            data-te-ripple-color="light">
+                            <img
+                                src={F7}
+                                className="w-full align-middle transition duration-300 ease-linear" />
+                            <a href="#Education">
+                                <div
+                                    className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
+                                    <div className="flex h-full items-end justify-start">
+                                        <div className="m-6 text-white">
+                                            <h5 className="mb-3 text-lg font-bold">Education</h5>
+                                            <p>
+                                                <small>Bachelor of Elementary Education</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
+                            </a>
+                        </div>
+
                         <div
                             id='Feat'
                             className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
@@ -49,33 +76,6 @@ const Features = () => {
                             data-te-ripple-init
                             data-te-ripple-color="light">
                             <img
-                                src={F7}
-                                className="w-full align-middle transition duration-300 ease-linear" />
-                            <a href="#Experience">
-                                <div
-                                    className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
-                                    <div className="flex h-full items-end justify-start">
-                                        <div className="m-6 text-white">
-                                            <h5 className="mb-3 text-lg font-bold">Education</h5>
-                                            <p>
-                                                <small>Bachelor of Elementary Education</small>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
-                            </a>
-                        </div>
-
-               
-
-                        <div
-                            id='Feat'
-                            className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
-                            data-te-ripple-init
-                            data-te-ripple-color="light">
-                            <img
                                 src={F8}
                                 className="w-full align-middle transition duration-300 ease-linear" />
                             <a href="#SkillsAndCertifications">
@@ -83,7 +83,7 @@ const Features = () => {
                                     className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
                                     <div className="flex h-full items-end justify-start">
                                         <div className="m-6 text-white">
-                                            <h5 className="mb-3 text-lg font-bold">Skills & Certifications</h5>
+                                            <h5 className="mb-3 text-lg font-bold">Skill set</h5>
                                             <p>
                                                 <small>Life-long learning in pursuit of excellence  </small>
                                             </p>
@@ -103,7 +103,7 @@ const Features = () => {
                             <img
                                 src={F9}
                                 className="w-full align-middle transition duration-300 ease-linear" />
-                            <a href="#Education">
+                            <a href="#Contact">
                                 <div
                                     className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
                                     <div className="flex h-full items-end justify-start">
